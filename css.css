@@ -1,0 +1,55 @@
+body{padding: 0px;
+    margin: 0px;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container header{
+    background-image: url("hinh/conan.jpg");
+    background-size: 100% 100%;
+    line-height: 400px;
+    margin-bottom: 2px;
+}
+.container nav{
+    line-height: 40px;
+    background-color:burlywood;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+.container article{
+    margin-top: 2px;
+    width: 744px;
+    min-height: 400px;
+    background-color: white;
+    border: 1px solid red;
+    padding: 2px;
+    float: left;
+}
+.container aside{
+    margin-top: 2px;
+    width: 250px;
+    min-height: 400px;
+    background-color:burlywood;
+    float: right;
+}
+.container footer{
+    clear: both;
+    line-height: 100px;
+    background-color: burlywood;
+    font-variant: small-caps;
+    border-top: 10px double white;
+}
+.container nav a{ color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container nav a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+}
+iframe[name=pagechinh]{
+    width: 100%;
+    min-height: 400px;
+}
